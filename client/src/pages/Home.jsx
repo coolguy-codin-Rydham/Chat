@@ -1,4 +1,6 @@
-// import AppLayout from "../components/layout/AppLayout"
+/* eslint-disable react-refresh/only-export-components */
+import AppLayout from "../components/layout/AppLayout"
+
 
 const Home = () => {
   return (
@@ -8,4 +10,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default AppLayout()(Home);
